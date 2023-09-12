@@ -1,6 +1,7 @@
 #https://github.com/tridibsamanta/Chatbot-using-Python
 
 import nltk
+nltk.download('omw-1.4')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
